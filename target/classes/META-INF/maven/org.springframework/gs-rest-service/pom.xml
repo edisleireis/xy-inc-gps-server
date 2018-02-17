@@ -100,4 +100,9 @@
             <url>https://repo.spring.io/libs-release</url>
         </pluginRepository>
     </pluginRepositories>
+    <name>POIs - Pontos de Interesse</name>
+    <description>Aplicativo que auxilia pessoas na localização de pontos de interesse (POIs).</description>
+    <organization>
+    	<name>XY Inc.</name>
+    </organization>
 </project>
