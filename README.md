@@ -17,6 +17,14 @@ Serviço para cadastrar pontos de interesse com 3 atributos: Nome do POI, Coorde
 
 https://xy-inc-gps-server.herokuapp.com/swagger-ui.html#!/Localizacoes/registerLocationUsingPOST
 
+### Atributos do Ponto de Interesse
+
+Nome do Ponto de Interesse, texto, não nulo, 100 caracteres;
+
+Coordenada X, inteiro positivo, não nulo;
+
+Coordenada Y, inteiro positivo, não nulo;
+
 ## Serviço para listar todos os POIs cadastrados
 
 Serviço que retornará uma lista com todos os Pontos de Interesse cadastrados.
@@ -28,3 +36,11 @@ https://xy-inc-gps-server.herokuapp.com/swagger-ui.html#!/Localizacoes/findLocat
 Serviço que retornará uma lista com todos os Pontos de Interesse que estejam a uma distância menor ou igual a determinado ponto, dada uma distancia especifica, bem como, as coordenadas X e Y do ponto.
 
 https://xy-inc-gps-server.herokuapp.com/swagger-ui.html#!/Localizacoes/findLocationsByDistanceUsingGET
+
+### Atributos para a consulta
+
+Coordenada X, inteiro positivo, não nulo;
+
+Coordenada Y, inteiro positivo, não nulo;
+
+Distância, inteiro positivo, não nulo;
