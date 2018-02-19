@@ -36,7 +36,7 @@ https://xy-inc-gps-server.herokuapp.com/swagger-ui.html#!/Localizacoes/findLocat
 
 ## Serviço para listar POIs por proximidade.
 
-Serviço que retornará uma lista com todos os Pontos de Interesse que estejam a uma distância menor ou igual a determinado ponto, dada uma distancia especifica, bem como, as coordenadas X e Y do ponto.
+Serviço que retornará uma lista com todos os Pontos de Interesse que estejam a uma distância menor ou igual a determinado ponto.
 
 https://xy-inc-gps-server.herokuapp.com/swagger-ui.html#!/Localizacoes/findLocationsByDistanceUsingGET
 
